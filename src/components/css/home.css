@@ -1,0 +1,18 @@
+/* src/components/Home.css */
+.home {
+    padding: 20px;
+}
+
+.article {
+    margin: 20px 0;
+}
+
+.article img {
+    max-width: 200px;
+    height: auto;
+}
+
+.article a {
+    color: blue;
+    text-decoration: underline;
+}
