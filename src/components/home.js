@@ -1,19 +1,16 @@
-// src/components/Home.js
 import React, { useState } from 'react';
 import './css/home.css';
 import logo from '../logo.svg';
 
 function Home() {
-    const [articleTitle, setArticleTitle] = useState(''); // State to manage article title input
+    const [articleTitle, setArticleTitle] = useState('');
 
-    // Handle input change
     const handleInputChange = (event) => {
         setArticleTitle(event.target.value);
     };
 
     return (
         <div className="home">
-            {/* Input field to select article title */}
             <div className="input-container">
                 <label htmlFor="articleTitle">Choose Article Title: </label>
                 <select
@@ -27,7 +24,6 @@ function Home() {
                 </select>
             </div>
 
-            {/* Conditional rendering based on articleTitle */}
             {articleTitle === 'first' ? (
                 <div className="article">
                     <h2>Article Title: {articleTitle}</h2>

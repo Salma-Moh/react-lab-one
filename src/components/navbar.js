@@ -1,6 +1,5 @@
-// src/Navbar.js
 import React from 'react';
-import './css/navbar.css'; // Create a corresponding CSS file for styling
+import './css/navbar.css';
 import { Link } from 'react-router-dom';
 import logo from '../logo.svg';
 
